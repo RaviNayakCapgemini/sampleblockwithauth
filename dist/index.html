@@ -17,3 +17,13 @@
     theme: 'snow'
   });
 </script>
+
+<script src="blocksdk.js"></script>
+
+<script>
+var sdk = new window.sfdc.BlockSDK();
+sdk.getContent(function (content) {
+content += '.';
+sdk.setContent(content);
+});
+</script>
