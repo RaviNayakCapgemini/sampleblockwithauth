@@ -1,6 +1,7 @@
 require('../node_modules/@salesforce-ux/design-system/assets/styles/salesforce-lightning-design-system.css');
 require('https://cdn.quilljs.com/1.3.6/quill.js');
-<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+require('https://cdn.quilljs.com/1.3.6/quill.snow.css');
+
 var SDK = require('blocksdk');
 var sdk = new SDK();
 
