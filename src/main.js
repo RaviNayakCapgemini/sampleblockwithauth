@@ -2,7 +2,7 @@ require('../node_modules/@salesforce-ux/design-system/assets/styles/salesforce-l
 
 var BlockSDK = require('blocksdk');
 
-var BlockSDK = require('https://cdn.quilljs.com/1.3.6/quill.js');
+var qill = require('https://cdn.quilljs.com/1.3.6/quill.js');
 
 
 
