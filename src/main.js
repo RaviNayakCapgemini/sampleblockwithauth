@@ -1,6 +1,11 @@
 require('../node_modules/@salesforce-ux/design-system/assets/styles/salesforce-lightning-design-system.css');
 
 var BlockSDK = require('blocksdk');
+
+var BlockSDK = require('https://cdn.quilljs.com/1.3.6/quill.js');
+
+
+
 if (window.self === window.top) {
 	document.body.innerText = 'This application is for use in the Salesforce Marketing Cloud Content Builder Editor only.';
 } else {
